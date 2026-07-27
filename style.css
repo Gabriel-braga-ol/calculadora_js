@@ -1,5 +1,7 @@
 :root {
     --primary-color: rgb(36, 37, 35);
+    --button-color: rgb(247, 247, 133);
+    --calculator-color: white;
 }
 
 body {
@@ -18,7 +20,7 @@ h1 {
 }
 
 .calculadora {
-    background-color: white;
+    background-color: var(--calculator-color);
     width: 300px;
     border-radius: 10px;
     padding: 20px;
@@ -51,7 +53,7 @@ button {
 }
 
 button:hover {
-    background: rgb(247, 247, 133);
+    background: var(--button-color);
     cursor: pointer;
     transition: .4s;
 }
